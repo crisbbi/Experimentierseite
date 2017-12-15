@@ -6,3 +6,11 @@ body{
     height: 20em;
     background-color: EEC591;
 }
+.dummy-logo{
+    background-color: aliceblue;
+    background-image: url(Logo.png);
+    width: 40%;
+    height: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
