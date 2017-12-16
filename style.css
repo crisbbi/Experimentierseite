@@ -1,16 +1,25 @@
 body{
     margin: 0;
 }
+
 .header{
     width: 100%;
     height: 20em;
     background-color: EEC591;
+    display: flex;
 }
+
 .dummy-logo{
     background-color: aliceblue;
     background-image: url(Logo.png);
-    width: 40%;
+    width: 30%;
     height: 10%;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.nav{
+    width: 50%;
+    height: min-content;
+    background-color: blue;
 }
