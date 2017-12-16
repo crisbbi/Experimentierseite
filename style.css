@@ -21,14 +21,14 @@ body{
 .dummy-logo{
     background-color: aliceblue;
     background-image: url(Logo.png);
-    width: 15%;
+    width: 10em;
     height: 100%;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .nav{
-    width: 50%;
+    width: 30em;
     height: 100%;
     background-color: blue;
 }
@@ -36,10 +36,17 @@ body{
 .nav-structure{
     list-style: none;
     background-color: brown;
-    margin: 1em 0em;
+    margin-top: 1.2em;
 }
 
 .nav-item{
     display: inline-flex;
     background-color: cadetblue;
+    font-size: 1.5em;
+}
+
+/* .nav-dot wird bisher nicht genutzt */
+
+.nav-link{
+    text-decoration: none;
 }
