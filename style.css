@@ -68,18 +68,23 @@ body{
     background-color: rgb(243, 243, 243);
 }
 
-.Bestellung p{
+.Bestellung h1{
     font-size: 3em;
     width: 100%;
     text-align: center;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     margin: 0em;
 }
 
-.bestellbereich{
+.hinweistext{
     width: 100%;
-    height: 10em;
+    height: min-content;
     background-color: purple;
 }
 
+.hinweis{
+    font-size: 1.6em;
+    margin: 0em 3em 0em 3em;
+    text-align: center;
+}
