@@ -94,11 +94,16 @@ button.hinweis-button{
     height: 3em;
     text-align: center;
     margin: 1em 0em 1em 0em;
-    background-color: blue;
+    background-color: rgb(58, 58, 160);
     border-style: none;
     color: white;
+    cursor: pointer;
+}
+
+button.hinweis-button:hover{
+    background-color: rgb(86, 86, 206);
 }
 
 button.hinweis-button:active{
-    background-color: rgb(0, 0, 139);
+    background-color: rgb(130, 130, 255);
 }
