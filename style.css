@@ -80,11 +80,25 @@ body{
 .hinweistext{
     width: 100%;
     height: min-content;
-    background-color: purple;
+    text-align: center;
 }
 
 .hinweis{
     font-size: 1.6em;
     margin: 0em 3em 0em 3em;
     text-align: center;
+}
+
+button.hinweis-button{
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+    background-color: blue;
+    border-style: none;
+    color: white;
+}
+
+button.hinweis-button:active{
+    background-color: rgb(0, 0, 139);
 }
